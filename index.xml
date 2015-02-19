@@ -1,0 +1,14 @@
+<craft>
+
+    <script type="text/openjscad">
+
+   //Cone
+   function main()
+   {
+   return cylinder({start: [0,0,0], end: [0,0,10], r1:2, r2: 0, fn: 30});
+   }
+    </script>
+</craft>
+
+</craft>
+
