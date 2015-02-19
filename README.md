@@ -1,2 +1,7 @@
 # craft-cone
-Cone 
+Cone
+
+#Install
+$ npm install craft-cone
+
+![example](example.png)
