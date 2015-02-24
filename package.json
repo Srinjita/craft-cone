@@ -1,6 +1,6 @@
 {
   "name": "craft-cone",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Cone",
   "main": "index.js",
   "scripts": {
@@ -18,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/Srinjita/craft-cone/issues"
   },
-  "homepage": "https://github.com/Srinjita/craft-cone"
+  "homepage": "https://github.com/Srinjita/craft-cone",
+  "dependencies": {
+    "craft-soundbar": "^1.0.0"
+  },
+  "devDependencies": {}
 }

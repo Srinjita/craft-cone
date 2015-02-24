@@ -1,14 +1,15 @@
 <craft>
-
-    <script type="text/openjscad">
-
-   //Cone
-   function main()
-   {
-   return cylinder({start: [0,0,0], end: [0,0,10], r1:2, r2: 0, fn: 30});
+<parameter name="topRadius" type="int" default="2"/>
+<parameter name="baseRadius" type="int" default="20"/>
+<parameter name="height" type="int" default="19"/>
+<script type="text/openjscad">
+    //Cone
+   function main() {
+   var topRadius=params.topRadius;
+   var baseRadius=params.baseRadius;
+   var height=params.height;
+   return cylinder({start: [0,0,0], end: [0,0,height], r1:topRadius, r2: baseRadius, fn: 30});
    }
-    </script>
-</craft>
-
+   </script>
 </craft>
 
