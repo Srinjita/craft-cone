@@ -17,7 +17,7 @@ $ npm install craft-cone
     <craft>
         <craft name="cone" module="craft-cone"/>
         <cone topRadius="2" baseRadius="5"></cone>
-        <cone topRadius="5" baseRadius="7"></cone>    
+        <cone topRadius="7" baseRadius="2"></cone>    
       	<cone topRadius="2" baseRadius="5" height="14"></cone>
       	<cone ></cone>
     </craft>
