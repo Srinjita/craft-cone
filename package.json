@@ -19,8 +19,4 @@
     "url": "https://github.com/Srinjita/craft-cone/issues"
   },
   "homepage": "https://github.com/Srinjita/craft-cone",
-  "dependencies": {
-    "craft-soundbar": "^1.0.0"
-  },
-  "devDependencies": {}
 }
